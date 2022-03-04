@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  2742.swift
 //  Algorithm
 //
-//  Created by 김성현 on 2021/09/07.
+//  Created by 김성현 on 2022/03/04.
 //
 
 import Foundation
