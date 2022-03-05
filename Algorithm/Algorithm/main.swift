@@ -7,8 +7,3 @@
 
 import Foundation
 
-let num = Int(readLine()!)!
-
-for i in 0 ..< num {
-    print(num - i)
-}
