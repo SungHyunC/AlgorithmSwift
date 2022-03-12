@@ -1,8 +1,8 @@
 //
-//  main.swift
+//  1157.swift
 //  Algorithm
 //
-//  Created by 김성현 on 2021/09/07.
+//  Created by 김성현 on 2022/03/12.
 //
 
 import Foundation
@@ -26,8 +26,3 @@ for key in array.keys {
     }
 }
 print(result.count == 1 ? result[0] : "?")
-
-
-
-
-
