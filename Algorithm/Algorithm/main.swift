@@ -7,27 +7,12 @@
 
 import Foundation
 
-let alpha = readLine()!.uppercased()
-var array = [String:Int]()
+let num = Int(readLine()!)!
 
-alpha.forEach {
-    if array[String($0)] == nil{
-        array[String($0)] = 1
-    }else{
-        array[String($0)]! += 1
-    }
+for _ in 0..<num {
+    let input = readLine()!
+    print(input)
 }
-
-var result = [String]()
-
-for key in array.keys {
-    if array[key] == array.values.max(){
-        result.append(key)
-    }
-}
-print(result.count == 1 ? result[0] : "?")
-
-
 
 
 
